@@ -221,18 +221,18 @@
  <b id="contactme">Contact Me</b>
  <br/>
  <br/>
- <form action="mailto:razkl@bgu.ac.il" method="post" enctype="multipart/form-data" name="EmailTestForm">
+ <form action="mailto:razkl@bgu.ac.il" method="GET" target="_blank" name="EmailTestForm">
   <label>E-mail</label>
   <br/>
-  <input type="text" id="mail" name="firstname" placeholder="Your e-mail..">
+  <input name="text" id="mail"  type="text" class="input" placeholder="Your e-mail..">
   <br/>
   <br/>
   <br/>
   <label>Subject</label>
   <br/>
-  <textarea id="writeit" placeholder="Write something.."></textarea>
+  <textarea class="textarea" name="body" id="writeit" placeholder="Write something.."></textarea>
   <br/>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" class=""button is-primary>
  </form>
  <br/>
  <br/>
