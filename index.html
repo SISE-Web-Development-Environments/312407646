@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title> Raz Klein - My Website</title>
+ <title> Tova Sheinfeld - My Website</title>
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
  <link href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.0/emojionearea.min.css" rel="stylesheet">
- <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.0/emojionearea.min.js"></script>
 
 </head>
 <body>
@@ -39,7 +36,7 @@
 <br/>
 <br/>
 <br/>
-<b id="sitename">RAZ KLEIN</b>
+<b id="sitename">TOVA SCHEINFELD</b>
 <br/>
 <br/>
 <br/>
@@ -63,16 +60,16 @@
  <br/>
  <br/>
  <text id="aboutmetext">
-  My name is <b>Raz Klein</b>. I'm 25 years old and originally from Rishon Lezion.
+  My name is <b>Tova Sheinfeld</b>. I'm 25 years old (not really), and I live in Rishon Lezion with my husband Micha.
   <br/>
-  I am a third year student in the Information Systems Engeneering department in Ben Gurion University.
+  I have 3 daughters and 9 grandchildren, which I miss a lot during the social distancing nowadays.
   <br/>
-  I live in Beer Sheva with my girlfriend Gal and our dog Happy <i class="fa fa-paw" aria-hidden="true"></i>.
-  <br/>
-  My hobbies are reading books <i class="fa fa-book" aria-hidden="true"></i>, listening to music <i class="fa fa-music" aria-hidden="true"></i>, and traveling <i class="fa fa-plane" aria-hidden="true"></i>
+  My hobbies are reading books <i class="fa fa-book" aria-hidden="true"></i>, going to concerts <i class="fa fa-music" aria-hidden="true"></i>, and traveling <i class="fa fa-plane" aria-hidden="true"></i>
   .
   <br/>
-  I hope this course will be fun and interesting!
+  <br/>
+  <br/>
+  <br/>
  </text>
  <br/>
  <br/>
@@ -86,10 +83,10 @@
  <br/>
  <br/>
  <div class="gallery">
-  <div><img href="src/Raz1.jpg" src="src/Raz1.jpg"></div>
-  <div><img href="src/RAZ2.JPG" src="src/RAZ2.JPG"></div>
-  <div><img href="src/Raz3.JPG" src="src/Raz3.JPG"></div>
-  <div><img href="src/Raz4.JPG" src="src/Raz4.JPG"></div>
+  <div><img href="src/tova1.jpeg" src="src/tova1.jpeg"></div>
+  <div><img href="src/tova2.jpeg" src="src/tova2.jpeg"></div>
+  <div><img href="src/tova3.jpeg" src="src/tova3.jpeg"></div>
+  <div><img href="src/tova4.jpeg" src="src/tova4.jpeg"></div>
  </div>
  <br/>
 
@@ -104,7 +101,8 @@
  <br/>
  <br/>
  <br/>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5EF1F7744894B2DA" frameborder="0" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLEhUFYj4xcc2p6ESH2pJQRxMb-a_7QbdW
+" frameborder="0" allowfullscreen></iframe>
  <br/>
  <br/>
  <br/>
@@ -224,7 +222,7 @@
  <form action="mailto:razkl@bgu.ac.il" method="GET" target="_blank" name="EmailTestForm">
   <label>E-mail</label>
   <br/>
-  <input name="text" id="mail"  type="text" class="input" placeholder="Your e-mail..">
+  <input id="mail"  type="text" class="input" placeholder="Your e-mail..">
   <br/>
   <br/>
   <br/>
@@ -232,7 +230,7 @@
   <br/>
   <textarea class="textarea" name="body" id="writeit" placeholder="Write something.."></textarea>
   <br/>
-  <input type="submit" value="Submit" class=""button is-primary>
+  <input type="submit" value="Submit">
  </form>
  <br/>
  <br/>
@@ -257,6 +255,9 @@
  <br/>
 </section>
 
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.0/emojionearea.min.js"></script>
 
 <script type="text/javascript">
  $(function(){
@@ -265,6 +266,12 @@
    $('html,body').scrollTo(this.hash,this.hash);
   });
  });
+</script>
+<script type="text/javascript">
+        function push(str){
+         var text = document.getElementById('writeit');
+         text.value += str;
+        }
 </script>
 <script type="text/javascript">
  $(document).scroll(function() {
